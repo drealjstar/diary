@@ -1,0 +1,89 @@
+
+.note{
+    height: 100vh;
+    display: flex;
+}
+
+.header2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(172, 74, 74);
+
+}
+
+.entry{
+    width: 685px;
+}
+
+.list{
+    /* background-color: blue; */
+    width: 685px;
+}
+
+.wrapper2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.wrapper3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input3{
+    height: 43px;
+    width: 350px;
+    border: 2px;
+    border-style: groove;
+    border-radius: 4px;
+    border-color: rgb(252, 248, 248);
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 8px;
+    
+}
+
+.date{
+    height: 44px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: -90px;
+    border: 2px;
+    border-style: groove;
+    border-radius: 4px;
+    border-color: rgb(252, 248, 248);
+    color: rgba(167, 161, 161, 0.918);
+}
+
+.input3::placeholder {
+    
+    color: rgba(167, 161, 161, 0.918);
+}
+
+.textArea{
+    margin-left: 100px;
+    margin-top: 20px;
+    border-color: rgba(167, 161, 161, 0.918);
+    border-radius: 4px;
+}
+
+.noteButton{
+    height: 30px;
+    width: 180px;
+    background-color: rgb(172, 74, 74);
+    color: white;
+    margin-left: 98px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 26px;
+}
+
+
+
+
