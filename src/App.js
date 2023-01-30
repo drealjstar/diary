@@ -25,9 +25,9 @@ const router = createBrowserRouter([
 
 ]);
 
-const App = () =>{
+const App = () => {
   return (
-    
+
     <div className="App">
       <RouterProvider router={router} />
     </div>

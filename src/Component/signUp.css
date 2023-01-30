@@ -1,38 +1,37 @@
-
-.signUpPage{
+.signUpPage {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.signUpwrapper{
+.signUpwrapper {
     display: flex;
     justify-content: center;
 }
 
-.signUpForm{
+.signUpForm {
     height: 300px;
     width: 277px;
     margin-top: 30px;
     border: none;
-    }
+}
 
-.signUpHeader{
-  color: rgb(172, 74, 74);
-  
+.signUpHeader {
+    color: rgb(172, 74, 74);
+
 
 }
 
-.backLink{
+.backLink {
     text-decoration: none;
     font-weight: 600;
 
 }
 
-.backText{
+.backText {
     margin-left: 10px;
     margin-top: 30px;
 }
 
-.input2{
+.input2 {
     height: 35px;
     width: 270px;
     border: 1px;
@@ -42,23 +41,23 @@
     padding-left: 8px;
 }
 
-.checkBox{
+.checkBox {
     font-size: 12px;
     margin-top: 8px;
     display: flex;
 }
 
-.checkBoxText1{
+.checkBoxText1 {
     margin-left: 4px;
     color: rgb(160, 155, 155);
 }
 
-.checkBoxText2{
+.checkBoxText2 {
     margin-left: 6px;
     color: rgb(42, 128, 226);
 }
 
-.signUpButton{
+.signUpButton {
     height: 30px;
     width: 283px;
     background-color: rgb(172, 74, 74);
