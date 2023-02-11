@@ -9,10 +9,9 @@ const Form = () => {
     <input type="text" className="input3" placeholder="Title" />
     <input type="date" className="date" />
     </div>
-        <textarea rows="5" cols="70" className="textArea"></textarea>
-        <button className="noteButton">Add Item</button>
-        
-      </div>
+    <textarea rows="5" cols="70" className="textArea"></textarea>
+    <button className="noteButton">Add Item</button>
+    </div>
      )
 }
 

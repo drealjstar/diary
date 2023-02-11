@@ -6,7 +6,7 @@ const Display = () => {
     return (
       <div className="list">
           
-          
+        <h1>lllllllll</h1>  
     </div>
        )
   }
