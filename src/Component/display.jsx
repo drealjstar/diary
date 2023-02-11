@@ -7,7 +7,7 @@ const Display = () => {
       <div className="list">
           
           
-        </div>
+    </div>
        )
   }
   
