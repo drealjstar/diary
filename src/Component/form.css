@@ -1,32 +1,3 @@
-.note {
-    height: 100vh;
-    display: flex;
-}
-
-.header2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(172, 74, 74);
-
-}
-
-.entry {
-    width: 685px;
-}
-
-.list {
-    /* background-color: blue; */
-    width: 685px;
-}
-
-.wrapper2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-}
-
-
 .wrapper3 {
     display: flex;
     justify-content: space-around;

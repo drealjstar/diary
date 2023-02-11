@@ -1,7 +1,7 @@
 import './App.css';
-import HomePage from "./Component/diary";
+import HomePage from "./Component/diaryHomePage";
 import SignUp from './Component/signUp';
-import Note from './Component/note';
+import Note from './Component/notePage';
 import {
   createBrowserRouter,
   RouterProvider,
