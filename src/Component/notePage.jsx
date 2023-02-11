@@ -12,10 +12,9 @@ const Note = () => {
           <h1 className="header2"> Say Something ! </h1>
         </div>
         <Form />
+      </div>
 
-        <Display />
-
-        </div>
+      <Display />
     </div>
   )
 }
