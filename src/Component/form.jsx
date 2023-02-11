@@ -4,11 +4,11 @@ import "./form.css";
 
 const Form = () => {
   return (
+    <div>
     <div className="wrapper3">
-        <div>
-          <input type="text" className="input3" placeholder="Title" />
-          <input type="date" className="date" />
-        </div>
+    <input type="text" className="input3" placeholder="Title" />
+    <input type="date" className="date" />
+    </div>
         <textarea rows="5" cols="70" className="textArea"></textarea>
         <button className="noteButton">Add Item</button>
         
