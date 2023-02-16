@@ -1,4 +1,32 @@
 .list {
-    width: 685px;
-} 
+    width: 500px;
+    height: 40px;
+    background-color: rgb(172, 74, 74);
+    color: white;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.listTitle {
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+.listDate {
+    margin-top: 7px;
+    margin-left: 270px;
+}
+
+.delete {
+    color: rgba(233, 233, 59, 0.863);
+    padding-left: 30px;
+    padding-top: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-right: 10px;
+}
