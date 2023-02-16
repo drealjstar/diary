@@ -1,4 +1,4 @@
-import { ADD_ITEM } from "./actions";
+import { ADD_ITEM, DELETE_ITEM } from "./actions";
 
 const initialState = {
     diaryItems: [],
@@ -23,6 +23,14 @@ const diaryReducer = (state = initialState, action) => {
                 ...state,
                 diaryItems: [item, ...state.diaryItems],
             };
+
+        case DELETE_ITEM:
+            return {
+                ...state,
+                diaryItems: state.diaryItems.filter((item) => item.id !== action.payload)
+
+            };
+
         default:
             return state;
     }
