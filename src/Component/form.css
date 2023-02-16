@@ -1,6 +1,7 @@
-.wrapper3 {
+.wrapper3{
     display: flex;
     justify-content: space-around;
+    width: 685px;
 }
 
 .input3 {
