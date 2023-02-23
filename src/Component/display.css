@@ -7,8 +7,13 @@
     margin-left: 80px;
     border-radius: 4px;
     display: flex;
-    justify-content: space-between;
 
+}
+
+.subList{
+    display: flex;
+    justify-content: space-between;
+    width: 435px;
 }
 
 .listTitle {
@@ -18,7 +23,7 @@
 
 .listDate {
     margin-top: 7px;
-    margin-left: 270px;
+    /* margin-left: 230px; */
 }
 
 .delete {
@@ -27,6 +32,13 @@
     padding-top: 4px;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 4px;
+    margin-top: 5px;
     margin-right: 10px;
+}
+
+.full{
+    text-decoration: none;
+    color: white;
+    margin-top: 1px;
+    
 }

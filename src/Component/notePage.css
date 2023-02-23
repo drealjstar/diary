@@ -1,6 +1,7 @@
 .note {
     height: 100vh;
     display: flex;
+    cursor: pointer;
 }
 
 .header2 {

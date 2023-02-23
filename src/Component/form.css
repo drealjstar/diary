@@ -27,6 +27,7 @@
     border-radius: 4px;
     border-color: rgb(252, 248, 248);
     color: rgba(167, 161, 161, 0.918);
+    cursor: pointer;
 }
 
 .input3::placeholder {
@@ -53,4 +54,5 @@
     padding-top: 15px;
     text-align: center;
     padding-bottom: 26px;
+    cursor: pointer;
 }
