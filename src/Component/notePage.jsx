@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import { addItem, deleteItem } from "../Redux/actions";
 
 
+
 const Note = (props) => {
   const { addItem, diaryItems, deleteItem } = props;
   return (
@@ -20,9 +21,9 @@ const Note = (props) => {
         {diaryItems.length > 0 ? (
           diaryItems.map((item) => {
             return (
-              <Display 
-              deleteItem= {(id) => deleteItem(id)}
-              item={item} />
+              <Display
+                deleteItem={(id) => deleteItem(id)}
+                item={item} />
             )
           })
         ) : (
