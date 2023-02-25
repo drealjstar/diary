@@ -4,14 +4,16 @@ import Form from "./form";
 import Display from "./display";
 import { connect } from "react-redux";
 import { addItem, deleteItem } from "../Redux/actions";
-
-
+import { Link } from "react-router-dom";
 
 const Note = (props) => {
   const { addItem, diaryItems, deleteItem } = props;
   return (
     <div className="note">
       <div className="entry">
+        <Link to="/" className="homeLink">
+          <p className="homeLinked">Back to Home</p>
+        </Link>
         <div className="wrapper2">
           <h1 className="header2"> Say Something ! </h1>
         </div>
@@ -29,7 +31,6 @@ const Note = (props) => {
         ) : (
           <h1 className="noItem">No Items</h1>
         )}
-
       </div>
     </div>
   );

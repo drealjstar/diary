@@ -7,7 +7,6 @@
 .header2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(172, 74, 74);
-
 }
 
 .entry {
@@ -31,4 +30,20 @@
     text-align: center;
     color: rgb(172, 74, 74);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.homeLinked {
+    background-color: rgb(172, 74, 74);
+    color: white;
+    width: 110px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+}
+
+.homeLink {
+    text-decoration: none;
 }

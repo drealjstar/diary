@@ -2,7 +2,6 @@
     width: 500px;
     height: 40px;
     background-color: rgb(172, 74, 74);
-    color: white;
     margin-top: 10px;
     margin-left: 80px;
     border-radius: 4px;
@@ -18,12 +17,12 @@
 
 .listTitle {
     padding-left: 20px;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 .listDate {
-    margin-top: 7px;
-    /* margin-left: 230px; */
+    margin-top: 8px;
+    
 }
 
 .delete {
@@ -32,7 +31,7 @@
     padding-top: 4px;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: 4.5px;
     margin-right: 10px;
 }
 
@@ -41,4 +40,9 @@
     color: white;
     margin-top: 1px;
     
+}
+
+.link{
+    text-decoration: none;
+    color: white;
 }

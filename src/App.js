@@ -26,8 +26,6 @@ const router = createBrowserRouter([
     path: "/full",
     element: <FullDisplay />
   }
-
-
 ]);
 
 const App = () => {

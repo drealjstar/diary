@@ -4,12 +4,12 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { reduceLength } from './reduceLength';
 
-
 const Display = ({ item, deleteItem }) => {
+
     return (
 
         <div className="list">
-            <Link to="/full" className="full">
+            <Link to={{ pathname: '/full' }} state={{ detail: item }} className="link"  >
                 <div className="subList">
                     <span className="listTitle">{reduceLength(item.title, 24)}</span>
                     <span className="listDate">{item.date}</span>
@@ -17,7 +17,6 @@ const Display = ({ item, deleteItem }) => {
             </Link>
             <RiDeleteBinLine onClick={() => deleteItem(item.id)} className="delete" />
         </div>
-
     )
 }
 

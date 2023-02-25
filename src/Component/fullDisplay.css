@@ -1,27 +1,44 @@
-.body{
+.body {
     background-color: rgb(172, 74, 74);
     height: 100vh;
     display: flex;
     justify-content: center;
 }
 
-.innerBody{
+.innerBody {
     background-color: white;
     color: black;
     height: 500px;
     width: 1000px;
     margin-top: 65px;
     border-radius: 20px;
+    font-size: large;
+    font-weight: 400;
+
 }
 
-.noteLinkText{
+.noteLinkText {
     color: white;
     margin-left: -150px;
-    
+
 }
 
-.noteLink{
-text-decoration: none;
-font-weight: 600;
+.noteLink {
+    text-decoration: none;
+    font-weight: 600;
 
+}
+
+.detailDate,
+.detailTitle,
+.detailText {
+    margin-left: 20px;
+}
+
+.detailText {
+    margin-right: 20px;
+}
+
+.detailTitle {
+    font-weight: 400;
 }
