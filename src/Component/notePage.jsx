@@ -12,7 +12,7 @@ const Note = (props) => {
     <div className="note">
       <div className="entry">
         <Link to="/" className="homeLink">
-          <p className="homeLinked">Back to Home</p>
+          <p className="homeLinked">Back</p>
         </Link>
         <div className="wrapper2">
           <h1 className="header2"> Say Something ! </h1>

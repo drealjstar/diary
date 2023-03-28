@@ -1,6 +1,5 @@
 import "./App.css";
 import HomePage from "./Component/diaryHomePage";
-import SignUp from "./Component/signUp";
 import Note from "./Component/notePage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { store, persistor } from "./Redux/store";
@@ -13,10 +12,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
-  },
-  {
-    path: "/sign",
-    element: <SignUp />,
   },
   {
     path: "/note",
